@@ -8,4 +8,9 @@ def get_cheapest_fruit(data:str)->str:
         name of the cheapest fruit
     """
     # your code here
-    pass
+
+    data = ('data,csv').read()
+    
+    return data
+
+print(get_cheapest_fruit())
