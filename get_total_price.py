@@ -11,7 +11,6 @@ def get_total_price(data:str)->float:
 
     for i in data:
         val = float(i.split(",")[1])
-        print(val)
         count += val
         
     print("{:.1f}".format(count))
